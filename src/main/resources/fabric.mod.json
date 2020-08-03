@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "beacon_example_plugin",
+  "version": "${version}",
+  "name": "Beacon Example Plugin",
+  "description": "This is an example plugin for Beacon, a plugin api for fabric.",
+  "authors": [
+    "Justsnoopy30"
+  ],
+  "contact": {
+    "email": "justsnoopy30@hypercubemc.tk",
+    "discord": "https://discord.gg/GDXgtqZ",
+    "homepage": "https://hypercubemc.tk",
+    "issues": "https://github.com/The-HyperZone/Beacon-Example-Plugin/issues",
+    "sources": "https://github.com/The-HyperZone/Beacon-Example-Plugin"
+  },
+
+  "license": "AGPL-3.0",
+  "icon": "assets/beacon_example_plugin/icon.png",
+
+  "environment": "server",
+  "entrypoints": {
+    "main": [
+      "net.hypercubemc.beacon_example_plugin.ExamplePluginMain"
+    ]
+  },
+
+  "depends": {
+    "minecraft": ">=1.16.1",
+    "fabricloader": ">=0.9.0+build.204",
+    "fabric": ">=0.16.2+build.385-1.16.1",
+    "beacon": ">=0.1.0"
+  }
+}
