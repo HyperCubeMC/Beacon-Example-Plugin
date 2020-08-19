@@ -6,6 +6,6 @@ import net.hypercubemc.beacon.BeaconPluginManager;
 public class ExamplePluginMain implements ModInitializer {
     @Override
     public void onInitialize() {
-        BeaconPluginManager.registerPlugin(new ExamplePluginInitializer());
+        // Any fabric mod stuff here
     }
 }
