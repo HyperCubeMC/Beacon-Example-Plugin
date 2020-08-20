@@ -32,6 +32,6 @@
     "minecraft": ">=1.16.2",
     "fabricloader": ">=0.9.1+build.205",
     "fabric": ">=0.18.0+build.397-1.16",
-    "beacon": ">=0.6.0"
+    "beacon": ">=0.6.2"
   }
 }
