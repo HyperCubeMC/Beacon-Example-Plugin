@@ -6,13 +6,13 @@ import net.hypercubemc.beacon.BeaconPluginInstance;
 public class ExamplePluginInitializer implements BeaconPluginInitializer {
     @Override
     public void onEnable(BeaconPluginInstance beaconPluginInstance) {
-        beaconPluginInstance.getLogger().info("Hello from the Beacon Example Mod!");
+        beaconPluginInstance.getLogger().info("Hello from the Beacon Example Plugin!");
         // Your enable code here
     }
 
     @Override
     public void onDisable(BeaconPluginInstance beaconPluginInstance) {
-        beaconPluginInstance.getLogger().info("Goodbye from the Beacon Example Mod!");
+        beaconPluginInstance.getLogger().info("Goodbye from the Beacon Example Plugin!");
         // Your disable code here
     }
 }
